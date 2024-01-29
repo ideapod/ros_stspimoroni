@@ -8,12 +8,16 @@ Based on the [pimoroni sts pi moroni kit]|(https://core-electronics.com.au/pimor
 the [explorerhat pro](https://shop.pimoroni.com/products/explorer-hat?variant=1074827129) uses the [explorerhat package]|(https://github.com/pimoroni/explorer-hat)
 
 this package requires access to gpio pins which normally requires root. To gain access use:
+
 `sudo apt install rpi.gpio-common
+
 sudo adduser "${USER}" dialout
+
 sudo reboot`
 
 # Usage
 `ros2 run stspimoroni sts`
+
 will run the main ros2 node that allows movement. 
 
 # TODO
