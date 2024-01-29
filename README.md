@@ -9,11 +9,9 @@ the [explorerhat pro](https://shop.pimoroni.com/products/explorer-hat?variant=10
 
 this package requires access to gpio pins which normally requires root. To gain access use:
 
-`sudo apt install rpi.gpio-common
-
-sudo adduser "${USER}" dialout
-
-sudo reboot`
+`sudo apt install rpi.gpio-common`
+`sudo adduser "${USER}" dialout`
+`sudo reboot`
 
 # Usage
 `ros2 run stspimoroni sts`
