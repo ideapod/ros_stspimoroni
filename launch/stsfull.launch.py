@@ -10,7 +10,7 @@ def generate_launch_description():
         ),
         Node( 
             package='v4l2_camera',
-            executable='v4l2_camera_node',
+            executable=' ',
             parameters=[
             {'-p': 'image_size:="[640,480]"'}
             ],

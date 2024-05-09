@@ -52,6 +52,10 @@ on your desktop run:
 
 `ros2 run teleop_twist_keyboard teleop_twist_keyboard` 
 
+OR for joystick:
+
+`ros2 run joy joy_node`
+
 and you can drive it around
 
 The camera node is started with: 
